@@ -19,6 +19,7 @@ import Auth from "../utils/auth";
 
 import { useQuery, useMutation } from "@apollo/client";
 import { QUERY_ALLPETS } from "../utils/queries";
+ 
 
 import "./map.css";
 

@@ -294,6 +294,7 @@ export default function Registration() {
         </div>
       </div>
       <Modal
+        appElement={document.getElementById('root')}
         isOpen={modalState}
         onRequestClose={closeModal}
         contentLabel="Example Modal"

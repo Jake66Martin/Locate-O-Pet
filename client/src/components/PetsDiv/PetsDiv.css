@@ -8,3 +8,16 @@
     overflow-y: auto;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1250px) {
+    .all-pets-div{
+        height: 450px;
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 30px;
+    }
+  }

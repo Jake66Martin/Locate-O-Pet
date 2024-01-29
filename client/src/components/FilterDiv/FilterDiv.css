@@ -24,3 +24,17 @@
 .form-check {
     margin: 5px 15px;
 }
+
+@media screen and (max-width: 1250px) {
+    .filter-div{
+        height: 300px;
+        width: 100%;
+        border: 1px;
+        border-style: solid;
+        border-color: rgb(212, 212, 212);
+        overflow-x: hidden;
+        overflow-y: auto;
+        margin-top: 30px;
+        border-radius: 5px 0 0 5px;
+    }
+  }

@@ -6,7 +6,7 @@ export default function FilterDiv({open}) {
     }
 
     return (
-        <div className="filter-div">
+        <div className="filter-div d-flex flex-column align-items-center">
             <h1 className="filters-title">Filters</h1>
             <div className="form-check">
                 <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />

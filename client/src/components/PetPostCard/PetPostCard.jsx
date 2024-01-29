@@ -18,12 +18,12 @@ export default function PetPostCard(pet) {
     const onMouseOut = () => {pet.setSelectedPetId()}
 
     return (
-    <div className={className} onMouseOver={onMouseOver} onMouseOut={onMouseOut}>
-            <h2 className="card-text">{speciesText} {pet.species}</h2>
-            <h2 className="card-text">Breed: {pet.breed}</h2>
-            <h2 className="card-text">Colour: {pet.colours}</h2>
-            <h2 className="card-text">{sexText} {pet.sex}</h2>
-            <h2 className="card-text">Message: {pet.message}</h2>
+    <div className= {className} onMouseOver={onMouseOver} onMouseOut={onMouseOut}>
+            <h2 className="card-text text-center">{speciesText} {pet.species}</h2>
+            <h2 className="card-text text-center">Breed: {pet.breed}</h2>
+            <h2 className="card-text text-center">Colour: {pet.colours}</h2>
+            <h2 className="card-text text-center">{sexText} {pet.sex}</h2>
+            <h2 className="card-text text-center">Message: {pet.message}</h2>
             <img className="card-img" src={pet.img}/>
         </div>
     )

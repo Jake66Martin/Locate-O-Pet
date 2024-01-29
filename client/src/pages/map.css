@@ -22,8 +22,16 @@
     width: 40%;
 }
 
+.form-div2 {
+    width: 100%;
+}
+
 .map-div {
     width: 60%;
+}
+
+.map-div2 {
+    width: 100%;
 }
    
 .pet-form-map {

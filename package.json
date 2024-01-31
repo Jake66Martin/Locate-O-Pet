@@ -8,7 +8,7 @@
         "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
         "install": "cd server && npm i && cd ../client && npm i",
         "build": "cd client && npm run build",
-        "render-build": "npm install && --production=false && set NODE_OPTIONS=--openssl-legacy-provider && vite build && react-scripts build"
+        "render-build": "npm install && set NODE_OPTIONS=--openssl-legacy-provider && vite build && react-scripts build"
     },
     "keywords": [],
     "author": "",
